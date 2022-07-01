@@ -13,3 +13,4 @@ lerna-debug.log*
 # Modules
 node_modules/
 build/
+package-lock.json

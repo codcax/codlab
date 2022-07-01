@@ -26,6 +26,10 @@
     "url": "git@codcax:codcax/codlab.git"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -38,7 +42,7 @@
     "@babel/runtime": "^7.13.10",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
+    "@types/react-dom": "^17.0.17",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
     "babel-loader": "^8.2.2",
