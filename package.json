@@ -26,12 +26,10 @@
     "url": "git@codcax:codcax/codlab.git"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.8.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
