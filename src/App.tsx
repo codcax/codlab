@@ -1,7 +1,12 @@
+import React from 'react';
+import { Navbar } from './components/Navbar';
+
 export const App = () => {
     return (
-        <div>
-            <h1>Codlab Init</h1>
-        </div>
+        <React.Fragment>
+            <div className="w-screen h-screen">
+                <Navbar />
+            </div>
+        </React.Fragment>
     );
 };
