@@ -3,3 +3,8 @@ declare module 'react-dom/client' {
     let createRoot: any;
     export { createRoot };
 }
+
+declare module '*.jpeg';
+declare module '*.jpg';
+declare module '*.png';
+declare module '*.svg';

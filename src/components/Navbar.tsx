@@ -16,32 +16,32 @@ export const Navbar = () => {
                 </div>
                 <ul className="flex-row items-center w-full px-4 py-5 ml-12 text-xl font-light text-slate-400 space-y-3">
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             Courses
                         </a>
                     </li>
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             Blogs
                         </a>
                     </li>
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             Contact
                         </a>
                     </li>
                     <li>
-                        <a href="" className="">
+                        <a href="/" className="">
                             Cookie Policy
                         </a>
                     </li>
@@ -56,11 +56,11 @@ export const Navbar = () => {
             <div className="sticky top-0 z-40 flex justify-center xl:pt-5 w-full">
                 <div className="flex items-center justify-between px-4 py-5 w-full max-w-8xl">
                     <MenuIcon
-                        className="w-6 h-6 text-slate-400 mr-6 sm:hidden"
+                        className="w-6 h-6 text-slate-400 mr-6 md:hidden"
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
                     />
-                    <div className="flex flex-grow sm:flex-grow-0 sm:text-3xl items-center">
-                        <a href="" className="mr-4 pt-0.5">
+                    <div className="flex flex-grow md:flex-grow-0 sm:text-3xl items-center">
+                        <a href="/" className="mr-4 pt-0.5">
                             <svg
                                 id="Layer_1"
                                 data-name="Layer 1"
@@ -112,9 +112,9 @@ export const Navbar = () => {
                                 />
                             </svg>
                         </a>
-                        <h1 className="hidden logo-text sm:block">Codlab</h1>
+                        <h1 className="hidden logo-text md:block">Codlab</h1>
                     </div>
-                    <div className="flex items-center hidden sm:flex">
+                    <div className="flex items-center hidden md:flex">
                         <button
                             className="flex items-center justify-start h-10 w-80 lg:w-96 py-2.5 px-4 rounded-lg bg-slate-800
                  ring-inset hover:ring-1 hover:ring-slate-500"
@@ -124,8 +124,8 @@ export const Navbar = () => {
                         </button>
                     </div>
                     <div className="flex items-center">
-                        <SearchIcon className="w-6 h-6 mr-6 text-slate-400 cursor-pointer sm:hidden" />
-                        <a href="./" className="">
+                        <SearchIcon className="w-6 h-6 mr-6 text-slate-400 cursor-pointer md:hidden" />
+                        <a href="https://github.com/codcax/codlab" target="_blank" className="" rel="noreferrer">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"

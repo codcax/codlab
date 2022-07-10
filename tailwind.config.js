@@ -8,7 +8,7 @@ module.exports = {
             },
             colors: {
                 'neutral': '#0f172a'
-            }
+            },
         },
     },
     plugins: [],
